@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vasug.sfs_voting_18_19">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="SFS VOTING 18-19"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".WELCOME_PAGE"
+            android:label="        SFS VOTING APPLICATION" >
+            <intent-filter>
+                <action android:name="com.example.vasug.SFS_VOTING_18_19.WELCOME_PAGE" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gandhi_vc"
+            android:label="Vote For Vice Captain" >
+            <intent-filter>
+                <action android:name="com.example.vasug.SFS_VOTING_18_19.gandhi_vc" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gandhi_c"
+            android:label="VOTE FOR CAPTAIN" >
+            <intent-filter>
+                <action android:name="com.example.vasug.SFS_VOTING_18_19.gandhi_c" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".admin_page"
+            android:label="ADMIN WINDOW" >
+            <intent-filter>
+                <action android:name="com.example.vasug.SFS_VOTING_18_19.admin_page" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".result_page"
+            android:label="RESULT" >
+            <intent-filter>
+                <action android:name="com.example.vasug.SFS_VOTING_18_19.result_page" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+       
+        <activity
+            android:name=".teresa_vc"
+            android:label="Vote For Vice Captain" >
+            <intent-filter>
+                <action android:name="com.example.vasug.SFS_VOTING_18_19.teresa_vc" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".teresa_c"
+            android:label="VOTE FOR CAPTAIN" >
+            <intent-filter>
+                <action android:name="com.example.vasug.SFS_VOTING_18_19.teresa_c" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".tagore_vc"
+            android:label="Vote For Vice Captain"  >
+            <intent-filter>
+                <action android:name="com.example.vasug.SFS_VOTING_18_19.tagore_vc" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".tagore_c"
+            android:label="VOTE FOR CAPTAIN">
+
+            <intent-filter>
+                <action android:name="com.example.vasug.SFS_VOTING_18_19.tagore_c" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".nehru_vc"
+            android:label="Vote For Vice Captain" >
+            <intent-filter>
+                <action android:name="com.example.vasug.SFS_VOTING_18_19.nehru_vc" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".nehru_c"
+            android:label="VOTE FOR CAPTAIN">
+            <intent-filter>
+                <action android:name="com.example.vasug.SFS_VOTING_18_19.nehru_c" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

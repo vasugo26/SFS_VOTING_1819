@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SFS_VOTING_18–19</string>
+    <string name="VICE_CAPTAIN">      VOTE FOR VICE CAPTAIN</string>
+    <string name="title_activity_teresa_c">teresa_c</string>
+    <string name="prefs_previously_started">already set</string>
+    <string name="arya_veer_khanna">Arya </string>
+    <string name="lipika_bhisht">Lipika Bhisht</string>
+    <string name="akriti_mishra">Akriti Mishra</string>
+    <string name="dolphee_khurana">Dolphee Khurana</string>
+    <string name="idont_know">password</string>
+</resources>
